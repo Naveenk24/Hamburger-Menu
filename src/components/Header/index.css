@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px 3px 20px;
+}
+
+.website-logo {
+  width: 50px;
+}
+
+.menu-icon-button {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-icon {
+  font-size: 25px;
+}
+
+.modal-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  margin-left: 590px;
+}
+
+.close-icon {
+  font-size: 25px;
+  color: #616e7c;
+}
+
+.model-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 0 20px 0 20px;
+}
+
+.home-icon,
+.about-icon {
+  font-size: 35px;
+}
+
+.home-name,
+.about-name {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.modal-list {
+  list-style-type: none;
+}
